@@ -1,0 +1,16 @@
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Boards\board.c
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Boards\board.h
+.\objects\apm32f072\board.o: ..\..\Include\board_apm32f072_eval.h
+.\objects\apm32f072\board.o: ..\..\Include\main.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Boards\board.h
+.\objects\apm32f072\board.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h
+.\objects\apm32f072\board.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h
+.\objects\apm32f072\board.o: ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h

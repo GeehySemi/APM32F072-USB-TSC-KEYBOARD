@@ -1,0 +1,711 @@
+Dependencies for Project 'USBD_HID', Target 'APM32F072': (DO NOT MODIFY !)
+F (..\..\..\..\..\..\Boards\board.c)(0x63F25DA4)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\board.o --omf_browse .\objects\apm32f072\board.crf --depend .\objects\apm32f072\board.d)
+I (..\..\..\..\..\..\Boards\board.h)(0x63F25C80)
+I (..\..\Include\board_apm32f072_eval.h)(0x633502F2)
+I (..\..\Include\main.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\Source\tsc_user.c)(0x63F32BB8)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_user.o --omf_browse .\objects\apm32f072\tsc_user.crf --depend .\objects\apm32f072\tsc_user.d)
+I (..\..\Include\tsc_user.h)(0x63F30C96)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_tmr.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\Include\board_apm32f072_eval.h)(0x633502F2)
+I (..\..\Include\main.h)(0x63D75192)
+I (..\..\..\..\..\..\Boards\board.h)(0x63F25C80)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h)(0x63EAE416)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc\usbd_hid.h)(0x63F2717D)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\Include\usb_device_user.h)(0x63DB4AE7)
+F (..\..\Source\board_apm32f072_eval.c)(0x63F25A71)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\board_apm32f072_eval.o --omf_browse .\objects\apm32f072\board_apm32f072_eval.crf --depend .\objects\apm32f072\board_apm32f072_eval.d)
+I (..\..\Include\board_apm32f072_eval.h)(0x633502F2)
+I (..\..\Include\main.h)(0x63D75192)
+I (..\..\..\..\..\..\Boards\board.h)(0x63F25C80)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_eint.h)(0x63EAE415)
+F (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\src\bsp_delay.c)(0x63D75192)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\bsp_delay.o --omf_browse .\objects\apm32f072\bsp_delay.crf --depend .\objects\apm32f072\bsp_delay.d)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+F (..\..\Source\bsp_lcd.c)(0x63F32D9D)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\bsp_lcd.o --omf_browse .\objects\apm32f072\bsp_lcd.crf --depend .\objects\apm32f072\bsp_lcd.d)
+I (..\..\Include\bsp_lcd.h)(0x63F305D9)
+I (..\..\Include\main.h)(0x63D75192)
+I (..\..\..\..\..\..\Boards\board.h)(0x63F25C80)
+I (..\..\Include\board_apm32f072_eval.h)(0x633502F2)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_spi.h)(0x63EAE416)
+I (..\..\Include\bsp_lcd_font.h)(0x633502F3)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+F (..\..\Source\main.c)(0x63F31D9E)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\main.o --omf_browse .\objects\apm32f072\main.crf --depend .\objects\apm32f072\main.d)
+I (..\..\Include\bsp_lcd.h)(0x63F305D9)
+I (..\..\Include\main.h)(0x63D75192)
+I (..\..\..\..\..\..\Boards\board.h)(0x63F25C80)
+I (..\..\Include\board_apm32f072_eval.h)(0x633502F2)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\Include\usb_device_user.h)(0x63DB4AE7)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc\usbd_hid.h)(0x63F2717D)
+I (..\..\Include\tsc_user.h)(0x63F30C96)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+F (..\..\Source\apm32f0xx_int.c)(0x63F256D9)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_int.o --omf_browse .\objects\apm32f072\apm32f0xx_int.crf --depend .\objects\apm32f072\apm32f0xx_int.d)
+I (..\..\Include\apm32f0xx_int.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\main.h)(0x63D75192)
+I (..\..\..\..\..\..\Boards\board.h)(0x63F25C80)
+I (..\..\Include\board_apm32f072_eval.h)(0x633502F2)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\Include\tsc_user.h)(0x63F30C96)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+F (..\..\Source\usb_device_user.c)(0x63F255D9)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\usb_device_user.o --omf_browse .\objects\apm32f072\usb_device_user.crf --depend .\objects\apm32f072\usb_device_user.d)
+I (..\..\Include\usb_device_user.h)(0x63DB4AE7)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\Include\usbd_descriptor.h)(0x63F2717D)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc\usbd_hid.h)(0x63F2717D)
+F (..\..\Source\usbd_descriptor.c)(0x63F2717D)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\usbd_descriptor.o --omf_browse .\objects\apm32f072\usbd_descriptor.crf --depend .\objects\apm32f072\usbd_descriptor.d)
+I (..\..\Include\usbd_descriptor.h)(0x63F2717D)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc\usbd_hid.h)(0x63F2717D)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\..\Source\usbd_board.c)(0x63DB4AC2)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\usbd_board.o --omf_browse .\objects\apm32f072\usbd_board.crf --depend .\objects\apm32f072\usbd_board.d)
+I (..\..\..\..\..\..\Boards\board.h)(0x63F25C80)
+I (..\..\Include\board_apm32f072_eval.h)(0x633502F2)
+I (..\..\Include\main.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_fmc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_crs.h)(0x63EAE415)
+F (.\startup_apm32f072.s)(0x63D75192)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527" --pd "APM32F072XB SETA 1"--list .\listings\apm32f072\startup_apm32f072.lst --xref -o .\objects\apm32f072\startup_apm32f072.o --depend .\objects\apm32f072\startup_apm32f072.d)
+F (..\..\Source\system_apm32f0xx.c)(0x63D75192)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\system_apm32f0xx.o --omf_browse .\objects\apm32f072\system_apm32f0xx.crf --depend .\objects\apm32f072\system_apm32f0xx.d)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_adc.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_adc.o --omf_browse .\objects\apm32f072\apm32f0xx_adc.crf --depend .\objects\apm32f072\apm32f0xx_adc.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_adc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_can.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_can.o --omf_browse .\objects\apm32f072\apm32f0xx_can.crf --depend .\objects\apm32f072\apm32f0xx_can.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_can.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_cec.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_cec.o --omf_browse .\objects\apm32f072\apm32f0xx_cec.crf --depend .\objects\apm32f072\apm32f0xx_cec.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_cec.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_comp.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_comp.o --omf_browse .\objects\apm32f072\apm32f0xx_comp.crf --depend .\objects\apm32f072\apm32f0xx_comp.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_comp.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_crc.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_crc.o --omf_browse .\objects\apm32f072\apm32f0xx_crc.crf --depend .\objects\apm32f072\apm32f0xx_crc.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_crc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_crs.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_crs.o --omf_browse .\objects\apm32f072\apm32f0xx_crs.crf --depend .\objects\apm32f072\apm32f0xx_crs.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_crs.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_dac.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_dac.o --omf_browse .\objects\apm32f072\apm32f0xx_dac.crf --depend .\objects\apm32f072\apm32f0xx_dac.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_dac.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_dbg.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_dbg.o --omf_browse .\objects\apm32f072\apm32f0xx_dbg.crf --depend .\objects\apm32f072\apm32f0xx_dbg.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_dbg.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_dma.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_dma.o --omf_browse .\objects\apm32f072\apm32f0xx_dma.crf --depend .\objects\apm32f072\apm32f0xx_dma.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_dma.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_eint.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_eint.o --omf_browse .\objects\apm32f072\apm32f0xx_eint.crf --depend .\objects\apm32f072\apm32f0xx_eint.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_eint.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_fmc.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_fmc.o --omf_browse .\objects\apm32f072\apm32f0xx_fmc.crf --depend .\objects\apm32f072\apm32f0xx_fmc.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_fmc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_gpio.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_gpio.o --omf_browse .\objects\apm32f072\apm32f0xx_gpio.crf --depend .\objects\apm32f072\apm32f0xx_gpio.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_i2c.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_i2c.o --omf_browse .\objects\apm32f072\apm32f0xx_i2c.crf --depend .\objects\apm32f072\apm32f0xx_i2c.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_i2c.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_iwdt.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_iwdt.o --omf_browse .\objects\apm32f072\apm32f0xx_iwdt.crf --depend .\objects\apm32f072\apm32f0xx_iwdt.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_iwdt.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_misc.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_misc.o --omf_browse .\objects\apm32f072\apm32f0xx_misc.crf --depend .\objects\apm32f072\apm32f0xx_misc.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_ob.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_ob.o --omf_browse .\objects\apm32f072\apm32f0xx_ob.crf --depend .\objects\apm32f072\apm32f0xx_ob.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_ob.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_pmu.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_pmu.o --omf_browse .\objects\apm32f072\apm32f0xx_pmu.crf --depend .\objects\apm32f072\apm32f0xx_pmu.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_pmu.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_rcm.c)(0x63EAE416)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_rcm.o --omf_browse .\objects\apm32f072\apm32f0xx_rcm.crf --depend .\objects\apm32f072\apm32f0xx_rcm.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_rtc.c)(0x63EAE417)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_rtc.o --omf_browse .\objects\apm32f072\apm32f0xx_rtc.crf --depend .\objects\apm32f072\apm32f0xx_rtc.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rtc.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_spi.c)(0x63EAE417)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_spi.o --omf_browse .\objects\apm32f072\apm32f0xx_spi.crf --depend .\objects\apm32f072\apm32f0xx_spi.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_spi.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_syscfg.c)(0x63EAE417)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_syscfg.o --omf_browse .\objects\apm32f072\apm32f0xx_syscfg.crf --depend .\objects\apm32f072\apm32f0xx_syscfg.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_syscfg.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_tmr.c)(0x63EAE417)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_tmr.o --omf_browse .\objects\apm32f072\apm32f0xx_tmr.crf --depend .\objects\apm32f072\apm32f0xx_tmr.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_tmr.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_usart.c)(0x63EAE417)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_usart.o --omf_browse .\objects\apm32f072\apm32f0xx_usart.crf --depend .\objects\apm32f072\apm32f0xx_usart.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usart.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_wwdt.c)(0x63EAE417)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_wwdt.o --omf_browse .\objects\apm32f072\apm32f0xx_wwdt.crf --depend .\objects\apm32f072\apm32f0xx_wwdt.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_wwdt.h)(0x63EAE416)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_usb.c)(0x63D75192)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_usb.o --omf_browse .\objects\apm32f072\apm32f0xx_usb.crf --depend .\objects\apm32f072\apm32f0xx_usb.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+F (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\src\apm32f0xx_usb_device.c)(0x63DB4A68)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\apm32f0xx_usb_device.o --omf_browse .\objects\apm32f072\apm32f0xx_usb_device.crf --depend .\objects\apm32f072\apm32f0xx_usb_device.d)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+F (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Src\usbd_core.c)(0x63DB209B)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\usbd_core.o --omf_browse .\objects\apm32f072\usbd_core.crf --depend .\objects\apm32f072\usbd_core.d)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_dataXfer.h)(0x63D75192)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_stdReq.h)(0x63D75192)
+F (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Src\usbd_dataXfer.c)(0x63D75192)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\usbd_dataxfer.o --omf_browse .\objects\apm32f072\usbd_dataxfer.crf --depend .\objects\apm32f072\usbd_dataxfer.d)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_dataXfer.h)(0x63D75192)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+F (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Src\usbd_stdReq.c)(0x63D75192)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\usbd_stdreq.o --omf_browse .\objects\apm32f072\usbd_stdreq.crf --depend .\objects\apm32f072\usbd_stdreq.d)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_stdReq.h)(0x63D75192)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_dataXfer.h)(0x63D75192)
+F (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Src\usbd_hid.c)(0x63F2717D)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\usbd_hid.o --omf_browse .\objects\apm32f072\usbd_hid.crf --depend .\objects\apm32f072\usbd_hid.d)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc\usbd_hid.h)(0x63F2717D)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_core.h)(0x63DB1DE3)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_config.h)(0x63D75192)
+I (..\..\Include\usbd_board.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_usb_device.h)(0x63DB49D1)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h)(0x63EAE415)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_stdReq.h)(0x63D75192)
+I (..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc\usbd_dataXfer.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc.c)(0x6334FACA)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc.o --omf_browse .\objects\apm32f072\tsc.crf --depend .\objects\apm32f072\tsc.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc_acq.c)(0x6334FACA)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_acq.o --omf_browse .\objects\apm32f072\tsc_acq.crf --depend .\objects\apm32f072\tsc_acq.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+I (..\..\Include\apm32f0xx_int.h)(0x63D75192)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc_dxs.c)(0x6334FACA)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_dxs.o --omf_browse .\objects\apm32f072\tsc_dxs.crf --depend .\objects\apm32f072\tsc_dxs.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc_ecs.c)(0x6334FACA)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_ecs.o --omf_browse .\objects\apm32f072\tsc_ecs.crf --depend .\objects\apm32f072\tsc_ecs.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc_filter.c)(0x6334FACA)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_filter.o --omf_browse .\objects\apm32f072\tsc_filter.crf --depend .\objects\apm32f072\tsc_filter.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc_linrot.c)(0x6334FACA)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_linrot.o --omf_browse .\objects\apm32f072\tsc_linrot.crf --depend .\objects\apm32f072\tsc_linrot.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc_object.c)(0x6334FACA)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_object.o --omf_browse .\objects\apm32f072\tsc_object.crf --depend .\objects\apm32f072\tsc_object.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc_time.c)(0x6334FACA)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_time.o --omf_browse .\objects\apm32f072\tsc_time.crf --depend .\objects\apm32f072\tsc_time.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)
+F (..\..\..\..\..\..\Libraries\TSC_Device_Lib\src\tsc_touchkey.c)(0x63F254A3)(--c99 --gnu -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\Boards -I ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc -I ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc -I ..\..\..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Class\HID\Inc -I ..\..\..\..\..\..\Middlewares\APM32_USB_Library\Device\Core\Inc -I ..\..\Include -I ..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc-I.\RTE\_APM32F072-Id:\Arm\Packs\Geehy\APM32F0xx_DFP\1.0.8\Device\Device\Geehy\APM32F0xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DAPM32F072XB -DUSB_DEVICE -DBOARD_APM32F072_EVAL -DAPM32F072xB-o .\objects\apm32f072\tsc_touchkey.o --omf_browse .\objects\apm32f072\tsc_touchkey.crf --depend .\objects\apm32f072\tsc_touchkey.d)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_acq.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h)(0x63EAE5A6)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h)(0x63D75192)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x63D75192)
+I (..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h)(0x63EAE5AA)
+I (..\..\Include\tsc_config.h)(0x633502F7)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_check.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_types.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_gpio.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_rcm.h)(0x63EAE415)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_time.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_touchkey.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_linrot.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_object.h)(0x6334FACA)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_dxs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_ecs.h)(0x6334FACB)
+I (..\..\..\..\..\..\Libraries\TSC_Device_Lib\inc\tsc_filter.h)(0x6334FACB)

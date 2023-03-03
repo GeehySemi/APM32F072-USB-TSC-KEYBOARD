@@ -1,0 +1,9 @@
+.\objects\apm32f072\bsp_delay.o: ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\src\bsp_delay.c
+.\objects\apm32f072\bsp_delay.o: ..\..\..\..\..\..\Boards\Board_APM32F072_MINI\inc\bsp_delay.h
+.\objects\apm32f072\bsp_delay.o: ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\apm32f0xx.h
+.\objects\apm32f072\bsp_delay.o: ..\..\..\..\..\..\Libraries\CMSIS\Include\core_cm0plus.h
+.\objects\apm32f072\bsp_delay.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\apm32f072\bsp_delay.o: ..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\objects\apm32f072\bsp_delay.o: ..\..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\objects\apm32f072\bsp_delay.o: ..\..\..\..\..\..\Libraries\Device\Geehy\APM32F0xx\Include\system_apm32f0xx.h
+.\objects\apm32f072\bsp_delay.o: ..\..\..\..\..\..\Libraries\APM32F0xx_StdPeriphDriver\inc\apm32f0xx_misc.h
